@@ -1,0 +1,1 @@
+![CI](https://github.com/dmitrien/dow/actions/workflows/web.yml/badge.svg)
