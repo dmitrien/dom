@@ -15,12 +15,8 @@ function handleClick() {
     document.getElementById('dead').textContent = deadCounter;
     document.getElementById('lost').textContent = lostCounter;
   
-    if (deadCounter === 10) {
-      alert('Вы победили!');
-      deadCounter = 0;
-      lostCounter = 0;
-    } else if (lostCounter === 10) {
-      alert('Вы проиграли!');
+    if (lostCounter === 5) {
+      alert('Вы проиграли! Ваш счет: '+(deadCounter));
       deadCounter = 0;
       lostCounter = 0;
     }
